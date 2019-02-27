@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.header{
+  color: #61dafb;
+  height: 100px;
+  background-color: #282c34;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-shadow: 2px 2px 8px rgba(119, 119, 119, 0.75);
+}
+.main{
+  height: 400px;
+  position: relative;
+  text-align: center;
+  background-color: #61dafb;
+  font-weight: bold;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo-list{
+  width: 360px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+  -moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+  -webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.75);
+  background-color: #282c34;
+  color: #61dafb;
+}
+main:before{
+  content: "";	position: absolute;	width: 300px;	height: 400px;	top: -30px;	left: -30px;	z-index: -1;	background-color: #FFFFFF;
+}
+main:after{
+  content: "";	position: absolute;	width: 300px;	height: 400px;	top: -30px;	left: -30px;	z-index: -1;	background-color: #FFFFFF;
+}
+
+input{
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.first p{
+  display: inline-flex;
+}
+.footer{
+  color: #61dafb;
+  height: 100px;
+  background-color: #282c34;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-shadow: 2px 2px 8px rgba(119, 119, 119, 0.75);
+}
